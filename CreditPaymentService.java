@@ -9,7 +9,4 @@ public class CreditPaymentService {
         double monthlyPayment = coefficient * amount;
         return (int)monthlyPayment;
     }
-    //K = i * (1 + i)n / ((1 + i)n - 1), где:
-    //i — месячная процентная ставка (годовая ставка / 12 / 100);
-    //n — количество месяцев, в течение которых выплачивается кредит.
 }
